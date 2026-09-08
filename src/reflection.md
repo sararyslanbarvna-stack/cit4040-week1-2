@@ -1,0 +1,3 @@
+# Reflection: Book Class vs. Books Database Table
+
+The `Book` class in Java models transient, in-memory objects containing business logic and object methods. In contrast, the `books` relational table provides persistent data storage across application runs. The database table allows complex querying (e.g., sorting and filtering via SQL) and multi-user concurrent access directly without occupying application memory. The Java class, however, can execute dynamic object-oriented behaviors, custom calculations, and access control policies that a static database schema cannot perform independently.
